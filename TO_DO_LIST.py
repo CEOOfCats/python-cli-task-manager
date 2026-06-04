@@ -57,7 +57,7 @@ def delete_task(task_no):
 
 def toggle_task(i):
     
-    task_list[i]["Status"] = not task_list["Status"]
+    task_list[i]["Status"] = not task_list[i]["Status"]
 
     save_tasks()
 
